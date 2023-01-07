@@ -51,3 +51,13 @@ nav{
         border-radius:20px;
     }
 }
+
+.content{
+    padding-top:230px;
+    & .body{
+        display:flex;
+        justify-content: space-evenly;
+        padding-right:50px;
+        padding-left:270px;
+    }
+}

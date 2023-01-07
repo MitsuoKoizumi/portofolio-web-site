@@ -50,4 +50,14 @@ nav ul li a:hover {
 .btn:hover {
   transform: scale(1.2);
   border-radius: 20px;
+}
+
+.content {
+  padding-top: 230px;
+}
+.content .body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50px;
+  padding-left: 270px;
 }/*# sourceMappingURL=style.css.map */
