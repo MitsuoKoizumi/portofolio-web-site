@@ -15,4 +15,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 45px 8% 0 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.logo span {
+  color: lightseagreen;
 }/*# sourceMappingURL=style.css.map */
