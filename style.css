@@ -21,7 +21,7 @@ nav ul li {
   padding: 10px 25px;
 }
 nav ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -30,18 +30,18 @@ nav ul li a:hover {
 }
 
 .logo {
-  color: white;
+  color: #fff;
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
 }
 .logo span {
-  color: lightseagreen;
+  color: rgb(225, 54, 15);
 }
 
 .btn {
   background-color: lightseagreen;
-  color: white;
+  color: #fff;
   padding: 10px 25px;
   text-decoration: none;
   font-weight: bold;
@@ -60,4 +60,23 @@ nav ul li a:hover {
   justify-content: space-evenly;
   padding-right: 50px;
   padding-left: 270px;
+}
+
+.portfolioInfo h1 {
+  color: #fff;
+  margin: 20px 0 20px;
+  font-size: 50px;
+}
+.portfolioInfo h1 span {
+  color: rgb(225, 54, 15);
+}
+.portfolioInfo h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.portfolioInfo h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
