@@ -61,6 +61,11 @@ nav ul li a:hover {
   padding-right: 50px;
   padding-left: 270px;
 }
+.content .body img {
+  width: 800px;
+  height: auto;
+  margin-top: -150px;
+}
 
 .portfolioInfo h1 {
   color: #fff;
@@ -102,4 +107,53 @@ nav ul li a:hover {
   color: #fff;
   cursor: pointer;
   box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+  color: #fff;
+}
+.about .main {
+  width: 1130px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.about img {
+  width: 204px;
+  height: 306px;
+}
+.about button {
+  background-color: lightseagreen;
+  padding: 13px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.about button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid green;
+}
+
+.about-text {
+  width: 550px;
+  letter-spacing: 1px;
+}
+.about-text h2 {
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.about-text p {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 45px;
 }/*# sourceMappingURL=style.css.map */
