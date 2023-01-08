@@ -86,3 +86,27 @@ nav{
         font-size:20px;
     }
 }
+.newsletter{
+    & form{
+        width:380px;
+        position:relative;
+        & input:first-child{
+            width:100%;
+            padding:15px 130px 15px 15px;
+            outline:none;
+            border-radius: 20px;
+        }
+        & input:last-child{
+            position:absolute;
+            border:none;
+            top:5px;
+            right:6px;
+            padding:10px 30px;
+            background-color:lightseagreen;
+            border-radius:30px;
+            color:$textColor;
+            cursor:pointer;
+            box-shadow: 1px 1px 2px rgba(0,0,0);
+        }
+    }
+}

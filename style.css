@@ -79,4 +79,27 @@ nav ul li a:hover {
   color: #fff;
   letter-spacing: 2px;
   font-size: 20px;
+}
+
+.newsletter form {
+  width: 380px;
+  position: relative;
+}
+.newsletter form input:first-child {
+  width: 100%;
+  padding: 15px 130px 15px 15px;
+  outline: none;
+  border-radius: 20px;
+}
+.newsletter form input:last-child {
+  position: absolute;
+  border: none;
+  top: 5px;
+  right: 6px;
+  padding: 10px 30px;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgb(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
