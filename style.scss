@@ -140,7 +140,6 @@ nav{
         font-weight: bold;
         border-radius: 30px;
         color:$textColor;
-
         transition:all 0.3s;
         &:hover{
             background-color: transparent;
@@ -165,5 +164,67 @@ nav{
         font-size:15px;
         line-height: 28px;
         margin-bottom:45px;
+    }
+}
+
+.portfolio{
+    width:100%;
+    padding:100px 0;
+    background-color: black; 
+    & .title{
+        & h2{
+            color:$textColor;
+            font-size:75px;
+            margin:30px auto;
+            text-align: center;
+        }
+    }
+    & .box{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        min-height:400px;
+    }
+    & .card{
+        height:390px;
+        width:500px;
+        background-color: #191919;
+        padding: 40px 35px;
+        margin:20px;
+        border-radius:20px;
+        overflow: hidden;
+        text-align: center;
+        & i{
+            color:lightseagreen;
+            font-size:50px;
+            margin:25px 0;
+        }
+        & h5{
+            color:white;
+            font-size:23px;
+            margin-bottom:30px;
+        }
+        & .paragraph{
+            & p{
+                color:white;
+                font-size:16px;
+                line-height:25px;
+                margin-bottom: 30px;
+            }
+        }
+        & .button{
+            background-color: lightseagreen;
+            padding: 13px 30px;
+            font-weight: bold;
+            border-radius: 30px;
+            color:$textColor;
+            transition:all 0.3s;
+            &:hover{
+                background-color: transparent;
+                cursor:pointer;
+                border:2px solid green;
+            }
+    
+        }
     }
 }

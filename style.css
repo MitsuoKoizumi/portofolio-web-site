@@ -156,4 +156,61 @@ nav ul li a:hover {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 45px;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 100px 0;
+  background-color: black;
+}
+.portfolio .title h2 {
+  color: #fff;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+.portfolio .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.portfolio .card {
+  height: 390px;
+  width: 500px;
+  background-color: #191919;
+  padding: 40px 35px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.portfolio .card i {
+  color: lightseagreen;
+  font-size: 50px;
+  margin: 25px 0;
+}
+.portfolio .card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.portfolio .card .paragraph p {
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.portfolio .card .button {
+  background-color: lightseagreen;
+  padding: 13px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.portfolio .card .button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid green;
 }/*# sourceMappingURL=style.css.map */
