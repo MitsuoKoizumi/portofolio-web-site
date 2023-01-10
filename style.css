@@ -213,4 +213,33 @@ nav ul li a:hover {
   background-color: transparent;
   cursor: pointer;
   border: 2px solid green;
+}
+
+.contact {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+}
+.contact p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact .contact-button {
+  background-color: lightseagreen;
+  padding: 13px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.contact .contact-button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid green;
 }/*# sourceMappingURL=style.css.map */
